@@ -1,0 +1,5 @@
+name: "Print Name Action"
+description: "Prints a name from .env file using Python"
+runs:
+  using: "python"
+  main: "main.py"
