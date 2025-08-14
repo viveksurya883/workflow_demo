@@ -17,4 +17,5 @@ jobs:
         run: pip install python-dotenv
 
       - name: Run my custom Python action
-        uses: ./actions
+        # uses: ./actions
+        run: python actions/main.py
