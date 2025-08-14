@@ -18,4 +18,4 @@ jobs:
 
       - name: Run my custom Python action
         # uses: ./actions
-        run: python actions/main.py
+        run: python3 actions/main.py
